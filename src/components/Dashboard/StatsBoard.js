@@ -41,8 +41,8 @@ function StatsBoard() {
 					icon={<TrendDown />}
 				/>
 				<Stats
-					title="Visits"
-					subtitle="Total today"
+					title="Ranking"
+					subtitle="today"
 					value="1500"
 					percent={65}
 					color="text-primary"
