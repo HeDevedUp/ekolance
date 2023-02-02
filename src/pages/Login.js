@@ -28,7 +28,7 @@ function Login() {
 							<span className="w-20 h-20 p-4 mb-4 rounded-full bg-primary text-primary-content">
 								<LogoSvg className="fill-current" />
 							</span>
-							<h1 className="text-3xl font-semibold">Admin Login</h1>
+							<h1 className="text-3xl font-semibold">Student Login</h1>
 							<p className="text-lg opacity-75">Use your credentials to gain access.</p>
 						</div>
 						<div className="ds-form-control">
@@ -41,9 +41,8 @@ function Login() {
 									id="form-email"
 									type="email"
 									placeholder="admin@demo.com"
-									className={`ds-input ds-input-bordered w-full pr-12${
-										errors.email ? ' ds-input-error' : ''
-									}`}
+									className={`ds-input ds-input-bordered w-full pr-12${errors.email ? ' ds-input-error' : ''
+										}`}
 									value={inputs.email}
 									onChange={onChange}
 								/>
@@ -66,9 +65,8 @@ function Login() {
 									id="form-password"
 									type="password"
 									placeholder="password"
-									className={`ds-input ds-input-bordered w-full pr-12${
-										errors.password ? ' ds-input-error' : ''
-									}`}
+									className={`ds-input ds-input-bordered w-full pr-12${errors.password ? ' ds-input-error' : ''
+										}`}
 									value={inputs.password}
 									onChange={onChange}
 								/>
@@ -85,7 +83,7 @@ function Login() {
 							<button
 								type="submit"
 								className="ds-btn ds-btn-primary ds-btn-block"
-								// disabled={(touched.email || touched.password) && !isValid}
+							// disabled={(touched.email || touched.password) && !isValid}
 							>
 								Log In
 							</button>
@@ -93,7 +91,7 @@ function Login() {
 					</div>
 				</form>
 				<p className="text-sm opacity-40 text-center pt-4">
-					Developed and maintained by Group 3 for SH5.0 Internship Capstone.
+					Developed and maintained by Ekolance Lms team.
 				</p>
 				<p className="font-medium text-sm opacity-40 text-center pt-0">💙 2022</p>
 			</div>

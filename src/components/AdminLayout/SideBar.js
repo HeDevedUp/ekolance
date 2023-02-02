@@ -21,7 +21,7 @@ function SideBar({ close }) {
 					<LogoSvg className="fill-current" />
 				</span>
 				<span className="text-3xl sm:text-3xl font-semibold uppercase ml-3 md:hidden lg:inline">
-					SH<span className="text-primary">5</span>
+					<span className="text-primary"> Ekolance </span>
 				</span>
 			</Link>
 			<nav>
@@ -43,7 +43,7 @@ function SideBar({ close }) {
 							onClick={close}
 						>
 							<Tag2 className="w-7 h-7" variant="TwoTone" />
-							Products
+							Courses
 						</NavLink>
 					</li>
 					<li>
@@ -53,7 +53,7 @@ function SideBar({ close }) {
 							onClick={close}
 						>
 							<People className="w-7 h-7" variant="TwoTone" />
-							Clients
+							Sudent
 						</NavLink>
 					</li>
 					<li>
@@ -63,7 +63,6 @@ function SideBar({ close }) {
 							onClick={close}
 						>
 							<UserSquare className="w-7 h-7" variant="TwoTone" />
-							Team
 						</NavLink>
 					</li>
 				</ul>

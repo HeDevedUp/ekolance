@@ -18,10 +18,12 @@ function Dashboard() {
 						<Countdown />
 					</div>
 				</div>
+
 				<div className="flex flex-col lg:row-start-1 lg:row-end-3 min-w-0 gap-y-12">
-					<div className="h-72">
+					{/* <div className="h-72">
 						<LineChart />
-					</div>
+					</div> */}
+
 					<div className="flex">
 						<div className="h-72 w-full mb-6">
 							<BarChart />

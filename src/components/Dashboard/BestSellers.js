@@ -45,9 +45,8 @@ function Table({ headers, body }) {
 							<td>{currencyFormatter(Sales[i] * parseInt(row.price))}</td>
 							<td>
 								<span
-									className={`ds-badge ds-badge-sm ds-badge-outline ds-badge-${
-										Sales[i] < 300 ? 'success' : 'ghost'
-									}`}
+									className={`ds-badge ds-badge-sm ds-badge-outline ds-badge-${Sales[i] < 300 ? 'success' : 'ghost'
+										}`}
 								>
 									{Sales[i] < 300 ? 'In stock' : 'Out of stock'}
 								</span>
@@ -72,7 +71,7 @@ function BestSellers() {
 	return (
 		<div className="">
 			<div className="flex justify-between items-center">
-				<h2 className="text-lg font-bold mb-3">Top Selling Products</h2>
+				<h2 className="text-lg font-bold mb-3">Top Ranking Student</h2>
 				<span className="ds-btn ds-btn-sm ds-btn-circle ds-btn-pastel">
 					<More variant="TwoTone" />
 				</span>

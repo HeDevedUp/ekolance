@@ -31,7 +31,7 @@ function ClientsFeed() {
 	return (
 		<div className="bg-base-100 shadow-2xl shadow-primary/10 dark:shadow-none dark:bg-neutral/50 rounded-3xl">
 			<div className="sticky top-0 flex justify-between items-center px-6 pt-6 pb-4 border-b border-accent-content/10 dark:border-base-content/10">
-				<h2 className="text-lg font-bold">Latest Clients</h2>
+				<h2 className="text-lg font-bold">Latest Courses</h2>
 				<span className="ds-btn ds-btn-sm ds-btn-circle ds-btn-pastel">
 					<More variant="TwoTone" />
 				</span>

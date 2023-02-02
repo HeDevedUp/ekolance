@@ -25,17 +25,17 @@ function StatsBoard() {
 			<h2 className="text-lg font-bold mb-3">Statistics</h2>
 			<div className="flex flex-col xs:flex-row flex-wrap bg-accent dark:bg-neutral/50 rounded-3xl gap-8 p-6 justify-between">
 				<Stats
-					title="Income"
+					title="Student"
 					subtitle="Today"
-					value="$208k"
+					value="208k"
 					percent={70}
 					color="text-success"
 					icon={<TrendUp />}
 				/>
 				<Stats
-					title="Sales"
-					subtitle="Per hour"
-					value="$1.26"
+					title="Courses"
+					subtitle="Per mentor"
+					value="1.26"
 					percent={42}
 					color="text-error"
 					icon={<TrendDown />}
