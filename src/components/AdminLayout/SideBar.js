@@ -38,7 +38,7 @@ function SideBar({ close }) {
 					</li>
 					<li>
 						<NavLink
-							to="/products"
+							to="/courses"
 							className="ds-btn-pastel border-0 rounded-box font-medium md:flex-col lg:flex-row gap-y-1"
 							onClick={close}
 						>
@@ -48,7 +48,7 @@ function SideBar({ close }) {
 					</li>
 					<li>
 						<NavLink
-							to="/clients"
+							to="/students"
 							className="ds-btn-pastel border-0 rounded-box font-medium md:flex-col lg:flex-row gap-y-1"
 							onClick={close}
 						>

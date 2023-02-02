@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Login from './pages/Login'
-import Products from './pages/Products'
-import Clients from './pages/Clients'
+import Courses from './pages/Courses'
+import Student from './pages/Student'
 import TeamMembers from './pages/TeamMembers'
 import Dashboard from './pages/Dashboard'
 import AuthProtected from './components/AuthProtected'
@@ -23,8 +23,8 @@ function App() {
 							<Route path="/" element={<AdminLayout />}>
 								<Route index element={<Dashboard />} />
 								<Route path="dashboard/*" element={<Dashboard />} />
-								<Route path="products/*" element={<Products />} />
-								<Route path="clients/*" element={<Clients />} />
+								<Route path="courses/*" element={<Courses />} />
+								<Route path="students/*" element={<Student />} />
 								<Route path="team/*" element={<TeamMembers />} />
 								<Route path="*" element={<NotFound />} />
 							</Route>
